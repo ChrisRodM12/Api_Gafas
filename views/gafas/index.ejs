@@ -1,0 +1,21 @@
+<%- include('../layouts/header', {title: 'Lista de Gafas'}); -%>
+
+<div class="container">
+    <h2 class="mt-4 mb-4">Productos Destacados</h2>
+  
+    <div class="row">
+      <% products.forEach(product => { %>
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img src="<%= product.image %>" alt="<%= product.name %>" class="card-img-top product-image">
+            <div class="card-body product-info">
+              <h5 class="card-title"><%= product.name %></h5>
+              <p class="card-text"><%= product.description %> Precio: $<%= product.price.toFixed(2) %></p>
+              <a href="#" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+      <% }); %>
+    </div>
+  </div>
+  

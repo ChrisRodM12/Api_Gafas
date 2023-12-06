@@ -1,0 +1,36 @@
+[{
+    "id":"1"
+    "marca":"Ray-Ban",
+    "forma":"Piloto",
+    "calibre":"64",
+    "genero":"Masculino",
+    "color":"Oro",
+    "precio":"940000" 
+}],
+[{
+    "id":"2"
+    "marca":"Emporio Armani",
+    "forma":"Piloto",
+    "calibre":"60",
+    "genero":"Masculino",
+    "color":"Azul",
+    "precio":"290000" 
+}],
+[{
+    "id":"3"
+    "marca":"Versace",
+    "forma":"Rectangular",
+    "calibre":"61",
+    "genero":"Masculino",
+    "color":"Dorado",
+    "precio":"1210000" 
+}],
+[{
+    "id":"4"
+    "marca":"Oakley",
+    "forma":"Piloto",
+    "calibre":"57",
+    "genero":"Masculino",
+    "color":"Blanco",
+    "precio":"651000" 
+}]
